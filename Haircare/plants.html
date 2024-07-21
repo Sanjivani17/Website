@@ -1,0 +1,432 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css"
+        integrity="sha384-dpuaG1suU0eT09tx5plTaGMLBsfDLzUCCUXOY2j/LSvXYuG6Bqs43ALlhIqAJVRb" crossorigin="anonymous">
+
+    <style>
+        .sticky-footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: olivedrab;
+            color: black;
+            text-align: center;
+            padding: 10px;
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .lead {
+            text-align: justify;
+            margin: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .container-fluid {
+            background-color: rgba(34, 139, 34, 0.59);
+        }
+
+        h2 {
+            color: blue;
+            text-align: center;
+        }
+
+        img {
+            border: 2px black solid;
+        }
+
+        hr {
+            color: red;
+        }
+    </style>
+
+    <title>Medicinal Plants</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Dadi Ke Nuske</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/plants.html">Medicinal Plants</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/ingredient.html">Medicinal Ingredients</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-warning" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <div class="row featurette my-4">
+        <div class="col-md-7 ">
+            <h2 class="featurette-heading fw-normal lh-1">BASIL<br><br><span class="text-body-secondary"><i>Botanical
+                        Name: Ocimum basilicum</i></span></h2><br>
+            <p class="lead">Basil, known botanically as Ocimum basilicum, is a fragrant herb widely revered for its
+                culinary and medicinal uses. This versatile plant is native to tropical regions from central Africa to
+                Southeast Asia and is a staple in many cuisines, notably Italian and Thai. Medicinally, basil is praised
+                for its anti-inflammatory and antibacterial properties, making it a popular remedy for ailments like
+                digestive disorders and respiratory issues. Rich in antioxidants, basil helps combat oxidative stress,
+                promoting overall health. Its essential oils are used in aromatherapy to relieve stress and anxiety.
+                Additionally, basil leaves are often used in teas and topical applications to soothe minor skin
+                irritations.<br><br><b><i>Used For:</i></b> Respiratory issues, digestive disorders, stress, anxiety,
+                minor skin irritations, oxidative stress, inflammation.<br></p>
+        </div>
+        <div class="col-md-5">
+            <img src="Images/basil.jpg" alt="Basil Image" height="500" width="500">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading fw-normal lh-1">LAVENDER<br><br><span class="text-body-secondary"><i>Botanical
+                        Name: Lavandula angustifolia</i></span></h2><br>
+            <p class="lead">Lavender, a fragrant herb known for its calming properties, is widely used in aromatherapy
+                to promote relaxation and reduce anxiety. The essential oil extracted from its flowers is also applied
+                topically to alleviate minor burns, insect bites, and skin irritations due to its antiseptic and
+                anti-inflammatory properties. Lavender is incorporated into various cosmetic and personal care products,
+                such as soaps, lotions, and shampoos, for its pleasant scent and potential to improve skin health.
+                Additionally, it is believed to aid in sleep, with lavender-scented pillows or diffusers often
+                recommended to those struggling with insomnia. In culinary practices, lavender flowers are sometimes
+                used to add a subtle floral note to dishes and beverages. Overall, lavender's versatility and
+                therapeutic benefits make it a popular choice in both traditional and modern wellness
+                practices.<br><br><b><i>Used For:</i></b> Lavender is used in aromatherapy and herbal medicine for its
+                calming and soothing effects. It is commonly used to alleviate anxiety, insomnia, depression, and
+                headaches.<br></p>
+        </div>
+        <div class="col-md-5 order-md-1">
+            <img src="Images/lavender.jpg" alt="lavender Image" height="550" width="500">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">ROSEMERY<br><br><span class="text-body-secondary"><i>Botanical
+                        Name: Salvia rosmarinus</i></span></h2><br>
+            <p class="lead">Rosemary, a fragrant evergreen herb, is cherished for its aromatic and medicinal properties.
+                Traditionally used to enhance memory and concentration, it contains compounds like carnosic acid and
+                rosmarinic acid, which have antioxidant and anti-inflammatory effects. Rosemary is commonly used in
+                cooking, adding a distinctive flavor to meats, soups, and breads. Its essential oil is popular in
+                aromatherapy, believed to reduce stress and improve mental clarity. Topically, rosemary oil is applied
+                to stimulate hair growth and improve scalp health. Additionally, it has antimicrobial properties, making
+                it useful in natural cleaning products. Rosemary's diverse applications in culinary, medicinal, and
+                cosmetic fields highlight its versatility and enduring appeal.<br><br><b><i>Used For:</i></b> Rosemary
+                is known for its medicinal properties and is used in various home remedies. It is believed to help
+                improve memory and concentration, alleviate muscle pain, boost the immune system, and aid digestion.<br>
+            </p>
+        </div>
+        <div class="col-md-5">
+            <img src="Images/rosemery.jpg" alt="rosemery Image" height="520" width="500">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading fw-normal lh-1">PEPPERMINT<br><br><span
+                    class="text-body-secondary"><i>Botanical
+                        Name: Mentha × piperita</i></span></h2><br>
+            <p class="lead">Peppermint, a hybrid mint, is widely celebrated for its cooling and soothing properties. Its
+                main active component, menthol, provides a refreshing sensation and is commonly used in products like
+                toothpaste, chewing gum, and candies. Medicinally, peppermint is known for aiding digestion, alleviating
+                symptoms of irritable bowel syndrome (IBS), and relieving headaches and muscle pain through its
+                essential oil. The oil is also utilized in aromatherapy to enhance mental clarity and reduce stress.
+                Additionally, peppermint tea is a popular remedy for soothing stomach discomfort and promoting
+                relaxation. Its antimicrobial properties make it beneficial for oral health, further solidifying
+                peppermint as a versatile and valuable herb.<br><br><b><i>Used For:</i></b> Peppermint is commonly used
+                in home remedies to relieve symptoms such as indigestion, nausea, headaches, and respiratory issues like
+                congestion and sinusitis.<br></p>
+        </div>
+        <div class="col-md-5 order-md-1">
+            <img src="Images/peppermint.jpg" alt="Peppermint Image" height="500" width="500">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">MARIGOLD<br><br><span class="text-body-secondary"><i>Botanical
+                        Name: Tagetes</i></span></h2><br>
+            <p class="lead">Marigold, known botanically as *Tagetes*, is a vibrant flower with a rich history in
+                traditional medicine and various cultural practices. The petals contain powerful antioxidants and
+                essential oils that exhibit anti-inflammatory, antifungal, and antibacterial properties. These compounds
+                make marigold a popular ingredient in skin care, helping to treat wounds, rashes, and minor burns, and
+                promoting overall skin health. Additionally, marigold tea is used to soothe sore throats and digestive
+                issues. In gardens, marigolds are often planted to repel pests, thanks to their natural insecticidal
+                properties. The flower's bright color and medicinal benefits have made it a staple in herbal remedies
+                and ornamental gardening.<br><br><b><i>Used For:</i></b> Marigold is used in home remedies for its
+                anti-inflammatory and antiseptic properties. It is particularly effective in treating skin conditions
+                such as cuts, bruises, burns, and rashes.<br></p>
+        </div>
+        <div class="col-md-5">
+            <img src="Images/marigold.jpg" alt="Marigold Image" height="520" width="500">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading fw-normal lh-1">LEMONBALM<br><br><span
+                    class="text-body-secondary"><i>Botanical
+                        Name: Melissa officinalis</i></span></h2><br>
+            <p class="lead">Lemon balm, botanically known as *Melissa officinalis*, is a fragrant herb celebrated for
+                its calming and soothing properties. It has been traditionally used in herbal medicine to alleviate
+                stress, anxiety, and insomnia due to its mild sedative effects. The leaves of lemon balm contain
+                essential oils, flavonoids, and polyphenols, which contribute to its antiviral and antioxidant benefits.
+                Lemon balm is also known to aid in digestion and relieve symptoms of indigestion, bloating, and gas. Its
+                antiviral properties make it effective in treating cold sores when applied topically. The herb’s
+                pleasant lemon scent and versatile medicinal uses have made it a popular addition to teas, tinctures,
+                and topical ointments.<br><br><b><i>Used For:</i></b> Lemon balm is used in home remedies primarily for
+                its calming and soothing effects. It is often used to alleviate anxiety, insomnia, and digestive issues
+                such as indigestion and bloating.<br></p>
+        </div>
+        <div class="col-md-5 order-md-1">
+            <img src="Images/lemonBalm.jpg" alt="LemonBalm Image" height="500" width="500">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">MUSTARD<br><br><span class="text-body-secondary"><i>Botanical
+                        Name: Brassica juncea</i></span></h2><br>
+            <p class="lead">Mustard, derived from the seeds of the *Brassica* family, is a versatile plant known for its
+                culinary and medicinal uses. The seeds are rich in essential nutrients, including omega-3 fatty acids,
+                iron, calcium, zinc, and protein. Mustard is renowned for its digestive benefits, helping to stimulate
+                appetite and promote digestion. Its anti-inflammatory and antibacterial properties make it a valuable
+                remedy for conditions such as arthritis and respiratory disorders. The application of mustard oil is
+                believed to improve skin health and stimulate hair growth. Additionally, mustard seeds have been used in
+                traditional medicine to alleviate muscle pain and manage blood sugar levels. Mustard’s pungent flavor
+                and health benefits make it a staple in kitchens and herbal remedies around the world.<br><br><b><i>Used
+                        For:</i></b> Mustard is used in various home remedies to treat conditions such as arthritis,
+                muscle pain, respiratory congestion, and digestive disorders like indigestion and constipation.<br></p>
+        </div>
+        <div class="col-md-5">
+            <img src="Images/mustard.jpg" alt="mustard Image" height="520" width="500">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading fw-normal lh-1">DANDELION<br><br><span
+                    class="text-body-secondary"><i>Botanical
+                        Name: Taraxacum officinale</i></span></h2><br>
+            <p class="lead">Dandelion, scientifically known as *Taraxacum officinale*, is a flowering plant that is
+                widely considered a medicinal herb. Its leaves, roots, and flowers have been used for centuries in
+                traditional medicine for various health benefits. Dandelion leaves are rich in vitamins A, C, and K, as
+                well as minerals like iron, calcium, magnesium, and potassium. They are commonly consumed in salads or
+                brewed into teas, known for their diuretic properties that help detoxify the liver and kidneys.
+                Dandelion roots are used to make herbal teas or extracts, believed to support digestive health and aid
+                in detoxification. The flowers are sometimes used for making wine or infused into oils for topical
+                applications. Dandelion is also valued for its potential anti-inflammatory and antioxidant effects,
+                contributing to its reputation as a versatile herb for overall health and wellness.<br><br><b><i>Used
+                        For:</i></b> Dandelion is used in home remedies to support liver health, aid digestion,
+                alleviate bloating, act as a diuretic, and promote skin health.<br></p>
+        </div>
+        <div class="col-md-5 order-md-1">
+            <img src="Images/dandelion.jpg" alt="dandelion Image" height="520" width="500">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">CALENDULA<br><br><span
+                    class="text-body-secondary"><i>Botanical
+                        Name: Calendula officinalis</i></span></h2><br>
+            <p class="lead">Calendula, scientifically known as *Calendula officinalis*, is a vibrant flowering plant
+                prized for its medicinal and ornamental uses. It is native to the Mediterranean region but now widely
+                cultivated across the world. Calendula flowers are bright orange or yellow, blooming throughout the
+                summer and fall. The petals are rich in flavonoids, triterpenoids, and essential oils, making them
+                valuable in traditional and herbal medicine. Calendula extracts are commonly used topically in creams,
+                ointments, and salves to soothe skin irritations, minor cuts, burns, and insect bites due to their
+                anti-inflammatory and antiseptic properties. Additionally, calendula is known for its potential
+                wound-healing properties and has been used historically to promote skin healing and reduce inflammation.
+                It is also occasionally used in culinary applications, adding color to salads or garnishing dishes.
+                Overall, calendula is prized for its therapeutic benefits and its cheerful, sunny blooms make it a
+                popular choice in gardens and herbal remedies.<br><br><b><i>Used For:</i></b> Calendula is commonly used
+                in home remedies to treat skin conditions such as wounds, cuts, burns, rashes, and insect bites.<br></p>
+        </div>
+        <div class="col-md-5">
+            <img src="Images/calendula.jpg" alt="calendula Image" height="580" width="500">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+
+    <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading fw-normal lh-1">YARROW<br><br><span class="text-body-secondary"><i>Botanical
+                        Name: Achillea millefolium</i></span></h2><br>
+            <p class="lead">Yarrow, scientifically known as *Achillea millefolium*, is a hardy perennial herb native to
+                Europe and Asia, now naturalized in North America. It is characterized by feathery, fern-like leaves and
+                clusters of small, daisy-like flowers that can range in color from white to pink to yellow. Yarrow has a
+                long history of medicinal use, dating back centuries. Traditionally, it has been employed to treat
+                wounds, bruises, and bleeding due to its astringent and hemostatic properties. Yarrow is also valued for
+                its anti-inflammatory effects and is used in herbal teas, extracts, and salves to alleviate digestive
+                issues, reduce fever, and relieve menstrual cramps. In addition to its medicinal uses, yarrow is a
+                beneficial companion plant in gardens, attracting pollinators and repelling pests. Its ability to thrive
+                in various soil conditions and climates makes it a versatile and popular herb among herbalists and
+                gardeners alike.<br><br><b><i>Used For:</i></b> Yarrow is known for its use in home remedies to
+                alleviate symptoms of colds, flu, fever, digestive disorders, and menstrual issues.<br></p>
+        </div>
+        <div class="col-md-5 order-md-1">
+            <img src="Images/yarrow.jpg" alt="yarrow Image" height="560" width="500">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">BARBERRY<br><br><span class="text-body-secondary"><i>Botanical
+                        Name: Berberis</i></span></h2><br>
+            <p class="lead">Barberry, known scientifically as *Berberis vulgaris*, is a deciduous shrub native to
+                Europe, North Africa, and Western Asia. It is characterized by its spiny branches, yellow flowers, and
+                distinctive red berries that ripen in late summer to fall. Historically, barberry has been used in
+                traditional medicine for its antimicrobial, anti-inflammatory, and antioxidant properties. Its berries
+                and roots contain berberine, a compound known for its therapeutic effects in treating infections,
+                gastrointestinal issues, and promoting cardiovascular health. Barberry extract is commonly used in
+                herbal remedies to support liver function, improve skin conditions, and enhance immune response.
+                Culturally, barberry has culinary uses as well, particularly in Middle Eastern cuisines where its tart
+                berries are used to flavor dishes like rice pilafs and meat stews. As an ornamental plant, barberry is
+                valued for its resilience and ability to thrive in various climates, making it a popular choice for
+                hedges and landscape borders.<br><br><b><i>Used For:</i></b> Barberry is used in home remedies to treat
+                conditions such as diarrhea, digestive disorders, urinary tract infections, and skin disorders.<br></p>
+        </div>
+        <div class="col-md-5">
+            <img src="Images/barberry.jpg" alt="barberry Image" height="580" width="500">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading fw-normal lh-1">CLOVER<br><br><span class="text-body-secondary"><i>Botanical
+                        Name: Trifolium</i></span></h2><br>
+            <p class="lead">Clover refers to various species of flowering plants in the genus *Trifolium*, belonging to
+                the legume family, Fabaceae. These plants are known for their distinctive trifoliate leaves and globular
+                flower heads that can be white, pink, or red in color. Clover is widely distributed across temperate and
+                subtropical regions, often found in fields, meadows, and lawns. It plays a crucial ecological role by
+                fixing nitrogen in the soil, which enhances fertility and benefits neighboring plants. Medicinally,
+                clover has been traditionally used for its diuretic, antispasmodic, and expectorant properties. It is
+                also valued in herbal medicine for its potential to support cardiovascular health and alleviate
+                menopausal symptoms. Additionally, clover is a significant forage crop for livestock due to its high
+                protein content and palatability. Culturally, clover holds symbolic meanings in various traditions,
+                often associated with luck and prosperity, especially the four-leaf clover, which is considered rare and
+                lucky to find.<br><br><b><i>Used For:</i></b> Clover is used in home remedies to treat conditions such
+                as coughs, bronchitis, asthma, and skin disorders.<br></p>
+        </div>
+        <div class="col-md-5 order-md-1">
+            <img src="Images/clove.jpg" alt="clover Image" height="580" width="500">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">COWBERRY<br><br><span class="text-body-secondary"><i>Botanical
+                        Name: Vaccinium vitis-idaea</i></span></h2><br>
+            <p class="lead">Cowberry, also known as lingonberry, is a small evergreen shrub native to boreal forests in
+                northern Europe, Asia, and North America. It typically grows low to the ground and produces bright red
+                berries that are known for their tart flavor. These berries are commonly used in culinary applications
+                such as jams, sauces, and beverages due to their unique taste and nutritional benefits. Cowberries are
+                rich in vitamins C and E, as well as antioxidants like flavonoids and polyphenols, which contribute to
+                their potential health benefits. In traditional medicine, cowberries are valued for their role in
+                supporting urinary tract health and promoting overall immunity. They are also enjoyed in Scandinavian
+                cuisine, often paired with savory dishes to balance flavors and add a refreshing
+                tartness.<br><br><b><i>Used For:</i></b> Cowberry, also known as lingonberry, is used in home remedies
+                primarily for urinary tract infections (UTIs) and to promote kidney health.<br></p>
+        </div>
+        <div class="col-md-5">
+            <img src="Images/cowberry.jpg" alt="cowberry Image" height="520" width="500">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading fw-normal lh-1">CURRY TREE<br><br><span
+                    class="text-body-secondary"><i>Botanical
+                        Name: Murraya koenigii</i></span></h2><br>
+            <p class="lead">The curry tree, scientifically known as Murraya koenigii, is a tropical to sub-tropical tree
+                native to the Indian subcontinent. It is highly valued for its aromatic leaves, which are an essential
+                ingredient in South Asian cuisine, especially Indian dishes. The leaves are rich in essential oils that
+                give them a distinct spicy, citrusy aroma, reminiscent of curry. In traditional medicine, curry leaves
+                are believed to have various health benefits, including aiding digestion, controlling diabetes by
+                lowering blood sugar levels, and possessing antioxidant properties. They are often used fresh or dried
+                in cooking to impart flavor to curries, soups, chutneys, and rice dishes. Beyond culinary uses, the
+                curry tree is also cultivated as an ornamental plant due to its attractive foliage and ability to thrive
+                in warm climates.<br><br><b><i>Used For:</i></b> Curry leaves, derived from the curry tree, are
+                primarily used in culinary dishes to add flavor and aroma, rather than for medicinal purposes.<br></p>
+        </div>
+        <div class="col-md-5 order-md-1">
+            <img src="Images/kadhipatta.jpg" alt="kadhipatta Image" height="600" width="500">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <footer class="sticky-footer">
+        <p>Scroll down to explore more MEDICINAL PLANTS</p>
+    </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

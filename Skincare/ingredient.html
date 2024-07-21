@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css"
+        integrity="sha384-dpuaG1suU0eT09tx5plTaGMLBsfDLzUCCUXOY2j/LSvXYuG6Bqs43ALlhIqAJVRb" crossorigin="anonymous">
+
+    <style>
+        .sticky-footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: burlywood;
+            color: black;
+            text-align: center;
+            padding: 10px;
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+
+        }
+
+        .lead {
+            text-align: justify;
+            margin: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .container-fluid {
+            background-color: rgba(34, 139, 34, 0.59);
+        }
+
+        h2 {
+            color: blue;
+            text-align: center;
+        }
+
+        img {
+            border: 2px black solid;
+        }
+
+        hr {
+            color: red;
+        }
+    </style>
+
+    <title>Medicinal Ingredients</title>
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Dadi Ke Nuske</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/plants.html">Medicinal Plants</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/ingredient.html">Medicinal Ingredients</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-warning" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+    <div class="row featurette my-4">
+        <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">HALDI<br><br><span class="text-body-secondary"><i>Botanical
+                        Name: Cuminum cyminum</i></span></h2><br>
+            <p class="lead">Turmeric (Curcuma longa), known as "haldi" in Hindi, is highly valued in traditional
+                medicine for its medicinal properties. The active compound, curcumin, has strong anti-inflammatory and
+                antioxidant effects, aiding in conditions like arthritis and inflammatory bowel disease. Turmeric’s
+                antimicrobial properties help combat infections, while its antioxidants reduce oxidative stress and
+                prevent cell damage. It supports digestive health and can treat skin conditions when applied topically.
+                Additionally, curcumin may inhibit cancer cell growth, support cardiovascular health, and enhance brain
+                health by potentially preventing neurodegenerative diseases. Despite its low bioavailability, turmeric’s
+                health benefits are extensive.<br><br><b><i>Used For:</i></b> Arthritis, colds, coughs, sore throats,
+                acne,
+                indigestion, bloating, pain, wounds, diabetes, heart disease.<br></p>
+        </div>
+        <div class="col-md-5">
+            <img src="Images/haldi.jpg" alt="Haldi Image" height="530" width="500">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading fw-normal lh-1">CUMIN<br><br><span class="text-body-secondary"><i>Botanical
+                        Name: Curcuma longa</i></span></h2><br>
+            <p class="lead">Cumin (*Cuminum cyminum*) is a flowering plant in the Apiaceae family, native to the eastern
+                Mediterranean region and South Asia. It is cultivated for its aromatic seeds, which are extensively used
+                in culinary traditions worldwide. Cumin seeds are small, elongated, and ridged with a distinctive warm
+                and earthy flavor. They are a staple spice in Indian, Middle Eastern, and Mexican cuisines, adding depth
+                and richness to dishes like curries, stews, and soups. Beyond its culinary uses, cumin is valued for its
+                potential health benefits. It is believed to aid digestion, alleviate gas and bloating, and may have
+                antimicrobial properties. Cumin seeds are also used in traditional medicine for their supposed ability
+                to boost immunity and promote respiratory health. Additionally, cumin oil is utilized in aromatherapy
+                for its soothing and calming effects.<br><br><b><i>Used For:</i></b> Indigestion,
+                bloating,
+                diarrhea, respiratory disorders, anemia, insomnia, skin disorders, common cold, asthma.<br></p>
+        </div>
+        <div class="col-md-5 order-md-1">
+            <img src="Images/cumin.jpg" alt="Cumin Image" height="560" width="500">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">ALOEVERA<br><br><span class="text-body-secondary"><i>Botanical
+                        Name: Aloe barbadensis miller</i></span></h2><br>
+            <p class="lead">Aloe vera, botanically known as Aloe barbadensis miller, is a succulent plant prized for its
+                medicinal properties and has been used for centuries in traditional medicine. The gel extracted from its
+                leaves contains vitamins, minerals, amino acids, and antioxidants that provide various health benefits.
+                It's commonly used to soothe skin conditions such as burns, cuts, and eczema due to its
+                anti-inflammatory and moisturizing properties. Additionally, aloe vera aids in digestion, supports
+                immune function, and has been noted for its potential to regulate blood sugar levels. Its versatility
+                makes it a staple in natural health remedies and skincare products.<br><br><b><i>Used For:</i></b>
+                Burns, cuts, eczema, psoriasis, acne, sunburn, digestive issues, constipation, diabetes.<br></p>
+        </div>
+        <div class="col-md-5">
+            <img src="Images/aloevera.jpg" alt="Aloevera Image" height="500" width="500">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading fw-normal lh-1">NEEM<br><br><span class="text-body-secondary"><i>Botanical
+                        Name: Azadirachta indica</i></span></h2><br>
+            <p class="lead">Neem (*Azadirachta indica*) is a tree native to the Indian subcontinent, renowned for its
+                multifaceted medicinal properties. It has been a cornerstone of traditional Ayurvedic medicine for
+                centuries. Neem leaves, bark, seeds, and oil are used to treat a variety of ailments due to their
+                anti-inflammatory, antibacterial, antiviral, and antifungal properties. Neem oil is commonly applied to
+                the skin to treat conditions like eczema and psoriasis, while neem leaves are often used in teas to
+                boost immune function and detoxify the body. The tree's natural insect-repellent qualities also make it
+                a popular ingredient in natural pesticides and skin care products. Its extensive use in traditional
+                medicine highlights its importance as a natural remedy for maintaining overall health and
+                well-being.<br><br><b><i>Used For:</i></b> Neem is utilized in various home remedies and traditional
+                medicine for its therapeutic properties. It is reputed to be beneficial for treating skin disorders such
+                as acne, eczema, and psoriasis. Additionally, neem is used to alleviate dandruff and other scalp
+                conditions.<br></p>
+        </div>
+        <div class="col-md-5 order-md-1">
+            <img src="Images/neem.jpg" alt="Neem Image" height="620" width="500">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">ONION<br><br><span class="text-body-secondary"><i>Botonical
+                        Name: Allium cepa</i></span></h2><br>
+            <p class="lead">Onion (*Allium cepa*) is a staple in culinary traditions worldwide, celebrated for its
+                distinctive flavor and health benefits. Rich in vitamins, minerals, and antioxidants, onions are known
+                to bolster the immune system, reduce inflammation, and promote heart health. They contain quercetin, a
+                powerful antioxidant that helps fight free radicals and may reduce the risk of chronic diseases. Onions
+                also have antibacterial properties, making them useful in preventing infections. In addition to their
+                medicinal properties, onions can help regulate blood sugar levels and improve digestive health. Their
+                versatility in cooking, coupled with their health-promoting qualities, makes onions an indispensable
+                ingredient in both kitchens and natural medicine cabinets.<br><br><b><i>Used For:</i></b> Onion is
+                commonly used in home remedies for its medicinal properties. It is believed to be effective in treating
+                conditions such as cough, cold, and sore throat.<br></p>
+        </div>
+        <div class="col-md-5">
+            <img src="Images/onion.jpg" alt="Onion Image" height="550" width="500">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading fw-normal lh-1">GARLIC<br><br><span class="text-body-secondary"><i>Botonical
+                        Name: Allium sativum</i></span></h2><br>
+            <p class="lead">Garlic (*Allium sativum*) is renowned for its potent medicinal properties and culinary
+                versatility. Rich in sulfur compounds, especially allicin, garlic has been used for centuries to boost
+                the immune system and fight infections. It is known to reduce blood pressure, lower cholesterol levels,
+                and improve heart health, making it a staple in many natural remedies for cardiovascular diseases.
+                Garlic also exhibits anti-inflammatory, antiviral, and antibacterial properties, contributing to its
+                effectiveness in treating colds and other infections. Additionally, it may help detoxify heavy metals in
+                the body and improve bone health. Whether consumed raw, cooked, or in supplement form, garlic's health
+                benefits make it a valuable addition to any diet.<br><br><b><i>Used For:</i></b> Garlic is known for its
+                various medicinal uses and is often used in home remedies to treat conditions such as high blood
+                pressure, high cholesterol, and colds.<br></p>
+        </div>
+        <div class="col-md-5 order-md-1">
+            <img src="Images/garlic.jpg" alt="Garlic Image" height="550" width="500">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">CLOVE<br><br><span class="text-body-secondary"><i>Botonical
+                        Name: Syzygium aromaticum</i></span></h2><br>
+            <p class="lead">Clove (*Syzygium aromaticum*) is a highly valued spice known for its distinctive aroma and
+                potent medicinal properties. It contains eugenol, a compound with powerful analgesic and antiseptic
+                qualities, making it effective in dental care for alleviating toothaches and gum pain. Clove is also
+                used to improve digestion, relieve respiratory conditions, and reduce inflammation. Its antioxidant
+                properties help combat oxidative stress, and its antimicrobial effects make it useful in fighting
+                infections. Additionally, clove oil is often used in aromatherapy to reduce stress and improve mental
+                clarity. This versatile spice, whether used whole or as an oil, plays a significant role in traditional
+                medicine and modern health practices.<br><br><b><i>Used For:</i></b> Clove is used in home remedies to
+                help alleviate toothaches and is also known for its antiseptic properties.<br></p>
+        </div>
+        <div class="col-md-5">
+            <img src="Images/clove.jpg" alt="Clove Image" height="520" width="500">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading fw-normal lh-1">GINGER<br><br><span class="text-body-secondary"><i>Botonical
+                        Name: Zingiber officinale</i></span></h2><br>
+            <p class="lead">Ginger (*Zingiber officinale*) is a widely used medicinal herb known for its aromatic and
+                therapeutic properties. It contains bioactive compounds like gingerol, which have potent
+                anti-inflammatory and antioxidant effects. Ginger is commonly used to alleviate digestive issues, such
+                as nausea, indigestion, and bloating, and is particularly effective in reducing symptoms of morning
+                sickness and motion sickness. Its anti-inflammatory properties make it beneficial for reducing muscle
+                pain and soreness, as well as managing arthritis. Ginger also supports immune function and can help
+                fight infections due to its antimicrobial properties. Additionally, it is often used to alleviate
+                respiratory conditions and improve cardiovascular health, making it a versatile and valuable ingredient
+                in both traditional and modern medicine.<br><br><b><i>Used For:</i></b>Ginger is commonly used in home
+                remedies for nausea, digestive issues, and inflammation.<br></p>
+        </div>
+        <div class="col-md-5 order-md-1">
+            <img src="Images/ginger.jpg" alt="Ginger Image" height="550" width="500">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">CUCUMBER<br><br><span class="text-body-secondary"><i>Botonical
+                        Name: Cucumis sativus</i></span></h2><br>
+            <p class="lead">Cucumber (*Cucumis sativus*) is a popular vegetable known for its high water content and
+                refreshing taste. It is widely used for its hydrating properties, making it an excellent choice for
+                maintaining skin health and hydration. Cucumbers are low in calories and high in essential nutrients
+                such as vitamins K and C, as well as minerals like potassium and magnesium. They have a soothing effect
+                on the digestive system and can help reduce bloating and inflammation. The antioxidant properties of
+                cucumbers support overall health by combating oxidative stress. Additionally, cucumbers are often used
+                in skincare routines to reduce puffiness and soothe skin irritations, further highlighting their
+                versatility and health benefits.<br><br><b><i>Used For:</i></b>Cucumber is often used in home remedies
+                for hydration, skin care, and as a cooling agent in facial masks and eye pads.<br></p>
+        </div>
+        <div class="col-md-5">
+            <img src="Images/cucumber.jpg" alt="Cucumber Image" height="530" width="500">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+
+    <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading fw-normal lh-1">AMLA<br><br><span class="text-body-secondary"><i>Botonical
+                        Name: Phyllanthus emblica</i></span></h2><br>
+            <p class="lead">Amla, also known as Indian gooseberry (*Phyllanthus emblica*), is a nutrient-rich fruit
+                renowned for its numerous health benefits. It is an excellent source of vitamin C, which boosts immunity
+                and acts as a powerful antioxidant. Amla is also rich in fiber, promoting healthy digestion and aiding
+                in the prevention of constipation. The fruit has anti-inflammatory properties and can help reduce the
+                risk of chronic diseases such as heart disease and diabetes. It is commonly used in Ayurvedic medicine
+                to enhance hair health, improve skin complexion, and support liver function. Amla's detoxifying
+                properties make it a valuable addition to diets for overall well-being and longevity.<br><br><b><i>Used
+                        For:</i></b> Amla, also known as Indian gooseberry, is used in home remedies for its high
+                vitamin C content, which boosts immunity and aids in digestion.<br></p>
+        </div>
+        <div class="col-md-5 order-md-1">
+            <img src="Images/amla.jpg" alt="Amla Image" height="500" width="500">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">ASHWAGANDHA<br><br><span
+                    class="text-body-secondary"><i>Botonical
+                        Name: Withania somnifera</i></span></h2><br>
+            <p class="lead">Ashwagandha (*Withania somnifera*) is a popular herb in Ayurvedic medicine, known for its
+                adaptogenic properties that help the body manage stress effectively. It is also referred to as Indian
+                ginseng due to its rejuvenating effects on the body. Ashwagandha promotes relaxation, enhances stamina,
+                and supports a balanced immune response. It is used to improve cognitive function, memory, and
+                concentration. The herb is believed to have anti-inflammatory properties that can help alleviate joint
+                pain and arthritis symptoms. Additionally, ashwagandha is used to boost vitality, improve sleep quality,
+                and support overall wellness, making it a versatile and valued herbal remedy.<br><br><b><i>Used
+                        For:</i></b> Ashwagandha is used in traditional medicine to help alleviate stress, anxiety, and
+                insomnia.<br></p>
+        </div>
+        <div class="col-md-5">
+            <img src="Images/Ashwagandha.jpg" alt="Ashwagandha Image" height="500" width="500">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading fw-normal lh-1">SHIKAKAI<br><br><span class="text-body-secondary"><i>Botonical
+                        Name: Acacia concinna</i></span></h2><br>
+            <p class="lead">Shikakai (*Acacia concinna*) is a traditional Ayurvedic herb primarily used in hair care. It
+                is renowned for its natural cleansing and conditioning properties, making it a popular alternative to
+                chemical-based shampoos. Shikakai is rich in saponins, which create a mild lather when mixed with water,
+                effectively cleansing the scalp and hair without stripping away natural oils. It helps to maintain scalp
+                health, promoting stronger hair follicles and reducing dandruff. Shikakai is also known to impart shine
+                and softness to the hair, making it easier to manage. It is often used in combination with other herbs
+                like amla and reetha to enhance its benefits for hair care.<br><br><b><i>Used For:</i></b> Shikakai is
+                primarily used in home remedies for hair care, such as promoting hair growth, preventing dandruff, and
+                nourishing the scalp.<br></p>
+        </div>
+        <div class="col-md-5 order-md-1">
+            <img src="Images/shikakai.jpg" alt="Shikakai Image" height="500" width="500">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">REETHA<br><br><span class="text-body-secondary"><i>Botonical
+                        Name: Sapindus mukorossi</i></span></h2><br>
+            <p class="lead">Reetha, also known as soapnut or *Sapindus mukorossi*, is a natural cleansing agent widely
+                used in Ayurvedic and traditional medicine. It contains saponins, which produce a gentle foaming action
+                when mixed with water, making it an effective alternative to chemical-based soaps and shampoos. Reetha
+                is valued for its ability to cleanse the scalp and hair without stripping away natural oils, making it
+                suitable for sensitive skin and scalp conditions. It helps in removing excess oil, dirt, and buildup
+                from hair, promoting scalp health and preventing dandruff. Reetha also adds shine and volume to hair,
+                making it a popular ingredient in natural hair care products.<br><br><b><i>Used For:</i></b> Reetha,
+                also known as soapnut, is commonly used in home remedies for hair care. It is known for its natural
+                cleansing properties, helping to cleanse the scalp and hair effectively.<br></p>
+        </div>
+        <div class="col-md-5">
+            <img src="Images/reetha.jpg" alt="Reetha Image" height="530" width="500">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading fw-normal lh-1">SPEARMINT<br><br><span
+                    class="text-body-secondary"><i>Botonical
+                        Name: Mentha spicata</i></span></h2><br>
+            <p class="lead">Spearmint (*Mentha spicata*) is a perennial herb known for its refreshing aroma and
+                medicinal properties. It belongs to the mint family and is widely used in culinary and therapeutic
+                applications. Spearmint leaves are rich in essential oils like menthol, which impart a cooling sensation
+                and minty flavor. In traditional medicine, spearmint is valued for its digestive benefits, helping to
+                relieve indigestion, gas, and nausea. It is also known for its anti-inflammatory and antioxidant
+                properties, which may contribute to overall health and wellness. Spearmint tea is a popular herbal
+                remedy for promoting relaxation, soothing sore throats, and supporting respiratory health. Additionally,
+                spearmint essential oil is used in aromatherapy for its invigorating scent and potential
+                stress-relieving effects. <br><br><b><i>Used For:</i></b> Spearmint is used in various home remedies and
+                traditional medicine practices. It is known for its potential health benefits in treating digestive
+                disorders, respiratory conditions, and hormonal imbalances.<br></p>
+        </div>
+        <div class="col-md-5 order-md-1 ">
+            <img src="Images/spearmint.jpg" alt="Spearmint Image" height="500" width="500">
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <footer class="sticky-footer">
+        <p>Scroll down to explore more MEDICINAL INGREDIENTS</p>
+    </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
